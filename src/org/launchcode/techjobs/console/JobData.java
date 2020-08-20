@@ -125,4 +125,15 @@ public class JobData {
         }
     }
 
+    public static ArrayList<HashMap<String, String>> findByValue() {
+
+        // load data, if not already
+        loadData();
+
+        ArrayList<HashMap<String, String>> jobs = new ArrayList<>();
+        
+
+        return jobs;
+    }
+
 }
